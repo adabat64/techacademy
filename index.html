@@ -4,25 +4,44 @@
 
 <head>
   <title>Home Page</title>
+  <meta charset="utf-8">
+  <!--Menu links -->
   <link rel="stylesheet" type="text/css" href="menu-page.css" />
   <script type="text/javascript" src="jquery-1.12.1.min.js"></script>
   <script type="text/javascript" src="menu.js"></script>
+
+  <!--Lightbox links-->
+  <link href="css/lightbox.css" rel="stylesheet" type="text/css" />
+
+  <script src="js/lightbox.js" type=text/javascript ></script>
 </head>
 
 <body>
-  <!--Following div contains the hover menu -->
-<ul class="navigation">
-  <li><a href="#"><span>Menu</span></a>
-    <ul>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Projects</a>
+  <!--Hover over menu -->
+  <div class="menu">
+
+    <ul class="navigation">
+      <li><a href="#"><span>Menu</span></a>
         <ul>
-          <li><a href:"#">Tech Academy</a> </li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Projects</a>
+            <ul>
+              <li><a href:"#">Tech Academy</a> </li>
+            </ul>
+          </li>
         </ul>
       </li>
     </ul>
-  </li>
-</ul>
+  </div>
 
+  <section>
+    <br />
+    <h3>Yoda..</h3>
+    <div>
+      <a class="example-image-link" href="yoda.jpg" data-lightbox="example-2" data-title="Wize words from a master."><img class="example-image" src="rsz_13img.jpg" alt="image-1"/></a>
+    </div>
+    <hr />
+  </section>
+  <script src="js/lightbox.js"></script>
 </body>
 </html>
